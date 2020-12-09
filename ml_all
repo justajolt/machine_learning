@@ -1,0 +1,6 @@
+clf = lenear_model.LinearRegression()
+
+train_y_ = clf.fit(train_x_poly, train_y)
+
+clf.coef_
+clf.intercept_
